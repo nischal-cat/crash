@@ -1,1 +1,7 @@
-"# crash"  initgit add README.mdgit commit -m "first commit"git branch -M maingit remote add origin https://github.com/nischal-cat/crash.gitgit push -u origin main
+Welcome to the Crash Game Demo! This is a simple web-based game where you can place bets, watch a plane take off, and cash out before it crashes. The goal is to maximize your winnings by cashing out at the right moment.
+Features
+
+    Dynamic Multipliers: The game features random multipliers that can go up to 20x, making it exciting and unpredictable.
+    Betting System: Players can set their bet amounts and see potential winnings based on the multiplier.
+    Game History: Keep track of your last games, including bets, wins, and crash points.
+    Interactive Gameplay: Enjoy a simple user interface with animated elements.
