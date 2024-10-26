@@ -69,7 +69,7 @@ function cashOut() {
 function addToHistory(betAmount, winnings, crashMultiplier) {
     const historyItem = document.createElement("div");
     historyItem.classList.add("history-item");
-    historyItem.textContent = `Bet: $${betAmount.toFixed(2)}, Won: $${winnings > 0 ? `$${winnings}` : '0.00'}, Crashed at: ${crashMultiplier.toFixed(2)}x`;
+    historyItem.textContent = `Bet: $${betAmount.toFixed(2)}, Won: $${winnings > 0 ? `${winnings}` : '0.00'}, Crashed at: ${crashMultiplier.toFixed(2)}x`;
     historyContainer.appendChild(historyItem);
 }
 
